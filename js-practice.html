@@ -49,6 +49,29 @@
     let greeting = "My name is " + name;
     console.log(greeting);
 
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    console.log(makeSquare(3));
+    console.log(makeSquare(28));
+
+    let squareOf21 = makeSquare (21);
+    console.log(squareOf21);
+
+    function myName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName
+      return fullName
+    }
+
+    console.log(myName("Lacey", "Grace", "Segars"));
+    console.log(myName("Brianna", "Kaye", "Casselman"));
+    console.log(myName("Robert", "\'Beto\'", "O'Rourke"));
+
+    let returnedName = myName("Lacey", "Grace", "Segars")
+    console.log(returnedName.length);
+    console.log(returnedName.toUpperCase());
     </script>
 </body>
 </html>
